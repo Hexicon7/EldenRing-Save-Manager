@@ -19,6 +19,11 @@ The compiled jar will be at build/libs/epicbot-bot-1.0.0.jar.
 - Use the Local Scripts feature to add the built JAR, or place the JAR in your EpicBot scripts folder.
 - Look for the script named "MyFirstBot" and start it on OSRS.
 
+### Corrupted Gauntlet Script
+- Script class: `com.example.epicbot.gauntlet.CorruptedGauntletScript`
+- Name in client: `CorruptedGauntlet`
+- Current state: skeleton/state machine only. You must fill in concrete object names, tiles, and thresholds based on your preferences and gear plan per the strategy guide.
+
 ## Script Entry Point
 The example script extends LoopScript and uses @ScriptManifest with GameType.OS. Adjust logic in loop() to perform actions (walking, interacting, banking, etc.).
 
